@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+.body{
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+.navbar{
+	font-size:20px;
+	margin:0px 0p 0px 0px;
+	background:rgb(168,0,250);
+	letter-spacing:3px;
+	border:0px;
+	line-height:50px;
+	Font-Family:"Slabo 27px"
+}
+.navbar-nav{
+	width: 100%;
+    text-align: center;
+}
+.navbar-nav>li{
+	float: none;
+	display: inline-block;
+}
+
+#navBar>ul>li>a{
+	color:white;
+	text-decoration:none;
+}
+#navBar>ul>li>a:hover{
+	background:#fff;
+	color:rgb(168,0,250);
+}
+.navbar-toggle{
+	border-color:transperant;
+	color:#fff !important;
+}
