@@ -6,11 +6,8 @@
 }
 .navbar{
 	font-size:20px;
-	margin:0px 0p 0px 0px;
 	background:rgb(168,0,250);
 	letter-spacing:3px;
-	border:0px;
-	line-height:50px;
 	Font-Family:"Slabo 27px"
 }
 .navbar-nav{
