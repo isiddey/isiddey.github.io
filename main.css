@@ -1,33 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
-.body{
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    transition: 0.5s;
-}
-.navbar{
-	font-size:20px;
-	background:rgb(168,0,250);
-	letter-spacing:3px;
-	Font-Family:"Slabo 27px"
-}
-.navbar-nav{
-	width: 100%;
-    text-align: center;
-}
-.navbar-nav>li{
-	float: none;
-	display: inline-block;
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+.body {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
 }
 
-#navBar>ul>li>a{
-	color:white;
-	text-decoration:none;
+.navbar {
+  background: rgb(168, 0, 250);
+  border: 0px;
 }
-#navBar>ul>li>a:hover{
-	background:#fff;
-	color:rgb(168,0,250);
+
+.navbar-nav {
+  font-size: 1.8rem;
+  Font-Family:"Merriweather";
+  letter-spacing:3px;
+  line-height:5rem;
+  width: 100%;
+  text-align: center;
 }
-.navbar-toggle{
-	border-color:transperant;
-	color:#fff !important;
+
+.navbar-nav>li {
+  float: none;
+  display: inline-block;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>.active>a:hover {
+  background: #fff;
+  color: rgb(168, 0, 250);
+}
+
+.navbar-toggle {
+  border-color: transperant;
+  color: #fff;
 }
