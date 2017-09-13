@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Josefin+Sans');
+a:hover, a:active{
+    text-decoration: none;
+}
+#content{
+    Font-Family:"Josefin Sans";
+}
+#content>.first{
+    max-width:100vw;
+    margin:0;
+}
+#content>.first>.col-lg-4, #content>.first>.col-md-4{
+    padding-left:0;
+}
+#content>.first>.col-lg-8, #content>.first>.col-md-8{
+    padding:0px;
+    margin-right:0px;
+}
+.jumbotron{	
+    height:53vh;
+    min-height:27rem;
+    margin-top:2rem;
+    padding:2rem;
+	background:rgb(170,0,255);
+	background-attachment:fixed;
+	color:white;
+    font-family:"Josefin Sans";
+}
+.carousel-inner{
+    margin-top:2rem;
+    height:53vh;
+    min-height:27rem;
+    Font-Family:"Merriweather";
+}
+.carousel-inner>.item>a>img{
+    width:auto;
+    height:53vh;
+    min-height:27rem;
+}
+.container{
+    margin:1rem 7vw 1rem 7vw;
+}
+.well{
+    background-color: rgba(0,0,0,0.11);
+}
+.panel{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.right {
+    float: right;
+    margin-top:4rem;
+}
+.coffee:hover{
+    background:blueviolet;
+    color: white;
+}
