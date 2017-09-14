@@ -1,45 +1,65 @@
 <html>
-    
-    <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="./styles/main.css">
-      <title>Siddey's Blog</title>
-    </head>
-    
-    <body>
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./styles/main.css">
+  <link rel="stylesheet" type="text/css" href="./styles/blog.css">
+  <title>Siddey's Blog</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navBar">
+        <ul class="nav navbar-nav">
+          <li class="pull-left"><a href="index.html">Home</a></li>
+          <li class="active"><a href="#">Blog</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li class="social pull-right"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <div class="panel text-center subNavBar">
+    <ul class="nav nav-pills centerPills">
+      <li class="active"><a href="#" onclick="loadPosts('latest')">Latest</a></li>
+      <li><a href="#">Technology</a></li>
+      <li><a href="#">Lifestyle</a></li>
+      <li><a href="#">Rants and Raves</a></li>
+    </ul>
+  </div>
+
+  <div class="container-fluid" id="content">
+    <div class="panel row post">
+      <a href="#">
+          <img src="images/1.png" alt="postImage" class="postImage col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="postDescription col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <h3>Why VS Code is the best Editor!</h3>
+            <p>Lore ipsum diet data nada nada nada.</p>
           </div>
-          <div class="collapse navbar-collapse" id="navBar">
-            <ul class="nav navbar-nav">
-              <li class="pull-left"><a href="index.html">Home</a></li>
-              <li class="active"><a href="#">Blog</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li class="social pull-right"><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-      </nav>
-    
-      <div class="container-fluid" id="content"></div>
-    
-    
-    
-      <!--JS and Jquery-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-       
-    </body>
-    
-    </html>
+        </a>
+    </div>
+  </div>
+
+
+
+  <!--JS and Jquery-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="scripts/blog.js"></script>
+
+</body>
+
+</html>

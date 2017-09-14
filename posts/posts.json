@@ -1,0 +1,20 @@
+{
+    "numberOfPosts": 1,
+    "latest":{
+        "number": 1,
+        "fileNames":["1"]
+    },
+    "technology":{
+        "number": 1,
+        "fileNames":["1"]
+    },
+    "lifestyle":{
+        "number": 0,
+        "fileNames":[]
+    },
+    "rantsAndRaves":{
+        "number": 0,
+        "fileNames":[]
+    }
+
+}

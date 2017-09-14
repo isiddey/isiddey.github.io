@@ -37,7 +37,7 @@ a:hover, a:active{
     height:53vh;
     min-height:27rem;
 }
-.container{
+.second{
     margin:1rem 7vw 1rem 7vw;
 }
 .well{
@@ -48,7 +48,6 @@ a:hover, a:active{
 }
 .right {
     float: right;
-    margin-top:4rem;
 }
 .coffee:hover{
     background:blueviolet;
