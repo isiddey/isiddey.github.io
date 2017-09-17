@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+#content{
+    margin:3rem 4rem 3rem 4rem;
+    font-family: "Merriweather";
+}
+a{
+    color:inherit;
+}
+a:hover, a:active{
+    text-decoration: none;
+    color:black;
+}
+.centerPills {
+    display: inline-block;
+}
+.subNavBar{
+    margin-top:4.9rem;
+    font-size:1.5rem;
+    background: rgba(0, 0, 0, 0.05);
+    padding:0;
+}
+.nav-pills>li>a{
+    color:black;
+    font-family: "Merriweather";
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover,.nav-pills>li>a:hover     {
+    background: rgba(0, 0, 0, 0.7);
+    color:White;
+}
+.panel{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
