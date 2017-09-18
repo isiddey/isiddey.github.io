@@ -56,7 +56,7 @@ function loadDynamicPosts(category, highRange) {
     var postImage = "";
     var counter = 0;
     var changedHTML = "";
-    if (totalPosts = 0) $('#content').html('No posts yet. Check soon!')
+    if (totalPosts == 0) $('#content').html('No posts yet. Check soon!')
     for (; lowRange <= highRange; lowRange++) {
         $.get("posts/" + lowRange + ".json", function (lVar) {
             console.log(lVar)
