@@ -1,38 +1,77 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
-#content{
-    margin:3rem 4rem 3rem 4rem;
+#content {
+    font-family: "Merriweather";
+    margin: 3rem 4rem 3rem 4rem;
 }
-a{
-    color:inherit;
+.right {
+    margin-right: 1rem;
+    float: right;
 }
-a:hover, a:active{
+.left{
+    margin-left:1rem;
+    float: left;
+}
+a {
+    color: inherit;
+}
+
+a:hover,
+a:active {
     text-decoration: none;
-    color:black;
+    color: black;
 }
+
 .centerPills {
     display: inline-block;
 }
-.subNavBar{
-    margin-top:4.9rem;
-    font-size:1.5rem;
+
+.subNavBar {
+    margin-top: 4.9rem;
+    font-size: 1.5rem;
     background: rgba(0, 0, 0, 0.05);
-    padding:0;
+    padding: 0;
 }
-.nav-pills>li>a{
-    color:black;
+
+.nav-pills>li>a {
+    margin-left:3rem;
+    margin-right:3rem;
+    color: black;
     font-family: "Merriweather";
 }
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover,.nav-pills>li>a:hover     {
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover,
+.nav-pills>li>a:hover {
     background: rgba(0, 0, 0, 0.7);
-    color:White;
+    color: White;
 }
-.panel{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+.panel {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.post:hover, .post:active{
-    background-color:rgba(0, 0, 0, 0.02)
+
+.post:hover,
+.post:active {
+    background-color: rgba(0, 0, 0, 0.02)
 }
-.postImage{
-    padding:0;
-    border-left:1rem solid rgba(0, 0, 0, 0.5);
+
+.postImage {
+    padding: 0;
+    border-left: 1rem solid rgba(0, 0, 0, 0.5);
+}
+
+#content > button {
+    font-size : 1.5rem;
+    color: rgb(255,255,255);
+    background-color: rgb(90,0,255);
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
 }
